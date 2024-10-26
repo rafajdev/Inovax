@@ -1,8 +1,9 @@
+import Home from "./sections/home"
 import "./styles/global.css"
 
 function App() {
   return (
-    <p>hey!</p>
+    <Home />
   )
 }
 
