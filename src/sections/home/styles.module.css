@@ -13,14 +13,12 @@
 }
 
 .section_content {
-    background-color: darkblue;
     height: 100%;
     display: grid;
     place-items: center;
 }
 
 .section_content_container {
-    background-color: chocolate;
     width: 1574px;
     height: 100%;
     display: flex;
