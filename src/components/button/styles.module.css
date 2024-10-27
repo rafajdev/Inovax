@@ -1,0 +1,10 @@
+@import '../../styles/global.css';
+
+.button {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 22px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
