@@ -9,7 +9,7 @@
     background-image: url("./background1.png");
     padding-top: 187px;
     width: 100%;
-    height: 92svh;
+    height: 98svh;
 }
 
 .section_content {
@@ -36,5 +36,5 @@
 .section_content_container_subtitle {
     font-size: 27px;
     letter-spacing: 7px;
-    margin-bottom: 110px;
+    margin-bottom: 200px;
 }
