@@ -12,18 +12,29 @@
 }
 
 .section_content {
-    background-color: blueviolet;
     height: 100%;
     display: grid;
     place-items: center;
 }
 
 .section_content_container {
-    background-color: brown;
-    width: 826px;
+    width: 725px;
     height: 100%;
+    margin-left: 101px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     justify-content: center;
+}
+
+.section_content_container_title {
+    color: var(--white-color);
+    font-size: 60px;                                                                        
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 30px;
+}
+
+.section_content_container_paragraph {
+    color: var(--white-color);
+    font-size: 26px;
 }
