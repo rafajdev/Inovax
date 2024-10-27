@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=El+Messiri:wght@400..700&display=swap');
+
+:root {
+   --main-color: #536EF3;
+}
 
 * {
    margin: 0;
