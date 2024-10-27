@@ -1,0 +1,22 @@
+.section {
+    background-image: url("./background1.png");
+    width: 100%;
+    height: 92svh;
+}
+
+.section_content {
+    background-color: rgb(207, 0, 210);
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.section_content_container {
+    background-color: chocolate;
+    width: 1574px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
