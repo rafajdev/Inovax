@@ -1,19 +1,26 @@
+@import "../../styles/global.css";
+
 .section {
-    background-image: url("./background1.png");
+    background-color: var(--dark-main-color);
+    display: flex;
     width: 100%;
     height: 92svh;
 }
 
+.section_image {
+    height: 100%;
+}
+
 .section_content {
-    background-color: rgb(207, 0, 210);
+    background-color: blueviolet;
     height: 100%;
     display: grid;
     place-items: center;
 }
 
 .section_content_container {
-    background-color: chocolate;
-    width: 1574px;
+    background-color: brown;
+    width: 826px;
     height: 100%;
     display: flex;
     flex-direction: column;
