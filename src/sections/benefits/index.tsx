@@ -1,5 +1,6 @@
 import styles from './styles.module.css'
 import Button from '../../components/button'
+import InfoBlock from '../../components/infoblock'
 
 export default function Benefits() {
     return (
@@ -19,7 +20,12 @@ export default function Benefits() {
                     </section>
                 </div>
                 <div className={styles.section_content_right}>
-
+                    <div className={styles.section_content_right_container}>
+                    <InfoBlock imageName='icon1.png' imageAlt='icon1' text='Custom Solutions'/>
+                    <InfoBlock imageName='icon2.png' imageAlt='icon2' text='Client-Centric Approach'/>
+                    <InfoBlock imageName='icon3.png' imageAlt='icon3' text='Expertise Across Industries'/>
+                    <InfoBlock imageName='icon4.png' imageAlt='icon4' text='Cutting-Edge Technology'/>
+                    </div>
                 </div>
             </div>
         </section>
