@@ -1,6 +1,7 @@
 @import "../../styles/global.css";
 
 .section {
+    background-color: chocolate;
     display: grid;
     place-items: center;
     width: 100%;
