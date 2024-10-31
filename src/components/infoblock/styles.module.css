@@ -1,6 +1,7 @@
 @import "../../styles/global.css";
 
 .infoblock {
+    background-color: var(--white-color);
     width: 280px;
     height: 232px;
     display: flex;
@@ -8,10 +9,11 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    border-left: 5px solid;
-    border-right: 5px solid;
-    border-top: 5px solid;
-    border-bottom: 9px solid;
+    border-left: 5px;
+    border-right: 5px;
+    border-top: 5px;
+    border-bottom: 9px;
+    border-style: solid;
     border-color: var(--main-color);
     border-radius: 15px;
 }
