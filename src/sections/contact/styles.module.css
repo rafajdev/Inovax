@@ -16,3 +16,11 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.section_content_title {
+    color: var(--white-color);
+    font-size: 60px;                                                                        
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
