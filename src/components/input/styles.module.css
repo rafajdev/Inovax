@@ -5,5 +5,11 @@
     padding-left: 15px;
     border: 2.5px solid var(--main-color);
     border-radius: 10px;
+    outline: none;
     font-size: 22px;
+}
+
+.input:focus {
+    color: var(--light-main-color);
+    border-color: var(--light-main-color);
 }
