@@ -3,24 +3,25 @@
 .section {
     background-color: var(--dark-main-color);
     width: 100%;
-    height: 95svh;
+    height: 900px;
     display: grid;
     place-items: center;
 }
 
 .section_content {
+    background-color: rgb(158, 0, 45);
     width: 1574px;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
 }
 
-.section_content_title {
+.section_content_header {
+    background-color: aqua;
+}
+
+.section_content_header_title {
     color: var(--white-color);
     font-size: 60px;                                                                        
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: bolder;
-    margin-bottom: 30px;
 }
