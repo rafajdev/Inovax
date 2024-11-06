@@ -18,7 +18,7 @@
 }
 
 .section_content_container {
-    width: 725px;
+    width: 551px;
     height: 100%;
     margin-left: 101px;
     display: flex;
@@ -29,7 +29,7 @@
 
 .section_content_container_title {
     color: var(--white-color);
-    font-size: 60px;                                                                        
+    font-size: 50px;                                                                        
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: bolder;
     margin-bottom: 30px;
@@ -37,5 +37,5 @@
 
 .section_content_container_paragraph {
     color: var(--white-color);
-    font-size: 26px;
+    font-size: 23px;
 }
