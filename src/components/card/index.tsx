@@ -7,7 +7,7 @@ export default function Card({title, titleBgColor, content, icon, iconAlt, butto
             <img src={`./${icon}`} alt={iconAlt} className={styles.card_icon}/>
             <h3 className={styles.card_title} style={{backgroundColor: titleBgColor}}>{title}</h3>
             <p className={styles.card_content}>{content}</p>
-            <Button content={buttonContent} width='394px' backgroundColor={buttonColor} fontColor='#080C23;' backgroundColorHover={buttonHoverColer} fontColorHover='#080C23;'/>
+            <Button content={buttonContent} width='300px' backgroundColor={buttonColor} fontColor='#080C23;' backgroundColorHover={buttonHoverColer} fontColorHover='#080C23;'/>
         </div>
     )
 }

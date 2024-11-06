@@ -2,7 +2,7 @@
 
 .card {
     background-color: var(--white-color);
-    width: 475px;
+    width: 400px;
     height: 621px;
     display: flex;
     flex-direction: column;
@@ -18,17 +18,17 @@
 }
 
 .card_icon {
-    width: 140px;
+    width: 110px;
 }
 
 .card_title {
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 500;
 }
 
 .card_content {
-    max-width: 400px;
+    max-width: 300px;
     text-align: center;
-    font-size: 26px;
+    font-size: 23px;
 }
