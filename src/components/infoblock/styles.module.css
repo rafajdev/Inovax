@@ -2,8 +2,8 @@
 
 .infoblock {
     background-color: var(--white-color);
-    width: 280px;
-    height: 232px;
+    width: 260px;
+    height: 212px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,9 +18,13 @@
     border-radius: 15px;
 }
 
+.infoblock_image {
+    width: 65px;
+}
+
 h3 {
     text-align: center;
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 300;
 }
