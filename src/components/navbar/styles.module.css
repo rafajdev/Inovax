@@ -15,12 +15,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1574px;
+    width: 1316px;
     height: 100%;
 }
 
 .nav_container_linksSection {
-    font-size: 22px;
+    font-size: 21px;
     width: 600px;
     display: flex;
     align-items: center;
