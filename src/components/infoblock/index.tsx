@@ -11,7 +11,7 @@ export default function InfoBlock({
 }) {
    return (
       <div className={styles.infoblock} >
-        <img src={`./${imageName}`} alt={`${imageAlt}`} />
+        <img src={`./${imageName}`} alt={`${imageAlt}`} className={styles.infoblock_image} />
         <h3>{text}</h3>
       </div>
    );
