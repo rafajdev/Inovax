@@ -1,0 +1,20 @@
+@import '../../styles/global.css';
+
+.infoline {
+     display: flex;
+     gap: 20px;
+}
+
+.infoline_icon img {
+     width: 40px;
+}
+
+.infoline_title {
+     color: var(--main-color);
+     font-size: 23px;
+}
+
+.infoline_content {
+     color: var(--white-color);
+     font-size: 21px;
+}
