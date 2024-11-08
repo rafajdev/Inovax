@@ -1,7 +1,5 @@
-@import "../../styles/global.css";
-
 .section {
-    background-color: var(--dark-main-color);
+    background-color: var(--dark-color);
     width: 100%;
     height: 98svh;
     display: grid;

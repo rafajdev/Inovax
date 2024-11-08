@@ -10,6 +10,6 @@
 }
 
 .input:focus {
-    color: var(--light-main-color);
-    border-color: var(--light-main-color);
+    color: var(--main-color-light);
+    border-color: var(--main-color-light);
 }
