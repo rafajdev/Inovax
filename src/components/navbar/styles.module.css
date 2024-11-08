@@ -9,6 +9,19 @@
     top: 0;
     height: 187px;
     width: 100%;
+    transition: 500ms;
+}
+
+.nav_active {
+    color: var(--white-color);
+    background-color: var(--dark-color);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    transition: 500ms;
 }
 
 .nav_container {
