@@ -2,6 +2,7 @@ import Navbar from "./components/navbar"
 import AboutUs from "./sections/aboutus"
 import Benefits from "./sections/benefits"
 import Contact from "./sections/contact"
+import Footer from "./sections/footer"
 import Home from "./sections/home"
 import Services from "./sections/ourservices"
 import "./styles/global.css"
@@ -15,6 +16,7 @@ function App() {
       <Benefits />
       <Services />
       <Contact />
+      <Footer />
     </>
   )
 }
