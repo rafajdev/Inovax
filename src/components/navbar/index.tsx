@@ -1,9 +1,22 @@
+import { useState } from "react";
 import styles from "./styles.module.css"
 import { Link } from 'react-scroll';
 
 export default function Navbar() {
+    const [nav, setNav] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 187) {
+            setNav(true);
+        } else {
+            setNav(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
     return (
-        <nav className={styles.nav}>
+        <nav className={nav ? styles.nav_active: styles.nav}>
             <div className={styles.nav_container}>
                 <Link to="home" smooth={true} duration={500} className={styles.links}>
                     <img src="./logo.png" alt="logo" />
