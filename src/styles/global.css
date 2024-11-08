@@ -4,9 +4,11 @@
 
 :root {
    --main-color: #536EF3;
-   --dark-main-color: #080C23;
-   --light-main-color: #a6b5ff;
+   --dark-color: #080C23;
+   --main-color-light: #a6b5ff;
    --white-color: #F8F8F8;
+   --black-color: rgba(4,4,4,1);
+   --black-color2: rgba(9,9,9,1);
 }
 
 * {
