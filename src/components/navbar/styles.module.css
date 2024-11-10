@@ -3,12 +3,13 @@
 }
 
 .nav {
+    background-color: cadetblue;
     display: grid;
     place-items: center;
     position: fixed;
     top: 0;
     height: 187px;
-    width: 100%;
+    width: 100dvw;
     z-index: 1;
     transition: 500ms;
 }
@@ -21,23 +22,69 @@
     position: fixed;
     top: 0;
     height: 85px;
-    width: 100%;
+    width: 100dvw;
     z-index: 1;
     transition: 500ms;
 }
 
 .nav_container {
+    background-color: blueviolet;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1316px;
+    width: 79dvw;
     height: 100%;
 }
 
 .nav_container_linksSection {
+    /* background-color: chartreuse; */
     font-size: 21px;
-    width: 600px;
+    min-width: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (max-width: 1550px) {
+    .nav_container_linksSection {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .nav_container_linksSection {
+        font-size: 18px;
+    }
+    .nav_container_logo {
+        width: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav_container{
+        width: 92dvw;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav_container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .links {
+        width: 10px;
+    }
+    .nav_container_linksSection {
+        font-size: 16px;
+    }
 }
