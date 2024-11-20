@@ -26,3 +26,20 @@ h3 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 300;
 }
+
+@media (max-width: 1550px) {
+    .infoblock {
+        width: 240px;
+        height: 192px;
+        display: flex;
+        gap: 25px;
+    }
+
+    .infoblock_image {
+        width: 55px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+}

@@ -32,16 +32,15 @@ export default function Benefits() {
                   <section className={styles.section_content_left_buttons}>
                      <Button
                         content="See our services"
-                        width="270px"
+                        width="100%"
                         backgroundColor="#536EF3"
                         fontColor="#F8F8F8"
                         backgroundColorHover="#3A4CA5"
                         fontColorHover="#F8F8F8"
                      />
-
                      <Button
                         content="Contact us"
-                        width="270px"
+                        width="100%"
                         backgroundColor="transparent"
                         fontColor="#080C23"
                         backgroundColorHover="#080C23"

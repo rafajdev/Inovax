@@ -5,7 +5,6 @@
 
 .section {
     /* background-image: url("./background1.png"); */
-    background-color: brown;
     padding-top: 187px;
     width: 100dvw;
     height: 800px;
@@ -14,7 +13,6 @@
 }
 
 .section_container {
-    background-color: chocolate;
     width: 79dvw;
     height: 100%;
     display: flex;

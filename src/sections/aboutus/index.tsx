@@ -1,11 +1,30 @@
 import styles from "./styles.module.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import { useEffect, useState } from "react";
 
 export default function AboutUs() {
+   const [img, setImg] = useState(false);
+
+   useEffect(() => {
+      const handleResize = () => {
+         if (window.innerWidth <= 1050) {
+            setImg(true);
+         } else {
+            setImg(false);
+         }
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+         window.removeEventListener("resize", handleResize);
+      };
+   }, []);
+
    return (
       <section className={styles.section} id="about">
          <img
-            src="./people_working.png"
+            src={img ? "./people_working2.png" : "./people_working.png"}
             alt="people working"
             className={styles.section_image}
          />

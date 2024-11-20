@@ -3,7 +3,6 @@
 }
 
 .nav {
-    background-color: cadetblue;
     display: grid;
     place-items: center;
     position: fixed;
@@ -28,7 +27,6 @@
 }
 
 .nav_container {
-    background-color: blueviolet;
     display: flex;
     align-items: center;
     justify-content: space-between;
