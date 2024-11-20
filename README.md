@@ -1,6 +1,6 @@
 # Project Title
 
-This project is currently under development. You can follow the progress here: [project link]
+This project is currently under development. 
 
 ## Overview
 
